@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    text-decoration: black;
+}
+
+.btn{
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px;
+}
+.w{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.g{
+    align-items: center;
+}
+.f{
+    display: flex;
+    gap: 30px;
+}
+
+.btn2{
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+h2{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec{
+    display: flex;
+    padding-top: 20px;
+}
+ 
+.people{
+    display: flex;
+    /* gap: 100px; */
+    width: 200px;
+    margin: 0 auto;
+    /* padding-right: 100px; */
+    
+    
+}
+
+.user{
+    display: flex;
+    border-right: 1px solid black;
+    padding-right: 100px;
+    padding-left: -100px;
+
+
+}
+.user1{
+    padding-top: 10px;
+}
+
+.location{
+    display: flex;
+    border-right: 1px solid black;
+    padding: left 100px; 
+    padding-right: 100px;
+    
+}
+
+#loc{
+    padding-top: 10px;
+}
+
+.server{
+    display: flex;
+    padding-left: 100px;
+
+}
+.ser{
+    padding-top: 10px;
+}
+
+.ilux{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.gr{
+    padding-top: 10px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.big{
+    border: 2px solid lightgray;
+    width: 330px;
+    height: 580px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.big1{
+    border: 2px solid red;
+    width: 330px;
+    height: 580px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.fe{
+    padding-left: 50px;
+}
+#plan{
+    padding-left: 75px;
+}
+.free{
+    padding-left: 75px;
+}
+.btn3{
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px;
+    margin-left: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.all{
+    display: flex;
+    gap: 50px;
+}
+
+.jam{
+    padding-left: 25px;
+}
+
+.btn4{
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bg{
+    background-image: url(./Asset/Huge\ Global.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.war{
+    display: flex;
+    
+}
+.star{
+    display: flex;
+}
+.rev11{
+    display: flex;
+    gap: 108px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.rev1{
+    border: 2px solid red;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.rev2{
+    border: 2px solid lightgray;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.one{
+    display: flex;
+    gap: 40px;
+}
+
+.btn7{
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    width: 250px;
+    height: 60px;
+    font-size: larger;
+}
+
+.end{
+    display: flex;
+    gap: 340px;
+}
+
+footer{
+    display: flex;
+    gap: 230px;
+    
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+
+h6{
+    color: lightgray;
+}
+.lal{
+    color: gray;
+}
+p{
+    color: gray;
+}
+/* fit all the text in the div */
+.gum{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+    text-align: center;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+
+
+}
